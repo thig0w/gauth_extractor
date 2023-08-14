@@ -10,7 +10,7 @@ $(VENV)/bin/activate: requirements.txt
 	$(PIP) install -r requirements.txt
 
 run: $(VENV)/bin/activate
-	$(PYTHON) cli.py 2023
+	$(PYTHON) src/extractor.py
 
 cleancache:
 	find . -name "__pycache__" -exec rm -rf {} +
