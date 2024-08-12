@@ -45,4 +45,7 @@ protobuf:
 	src/protobuff/protoc --python_out=. src/protobuff/gauth.proto
 	rm protoc-24.0-linux-x86_64.zip src/protobuff/protoc
 
+pyzbarlib:
+	sudo apt-get install libzbar0
+
 include files.mk
