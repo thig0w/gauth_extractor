@@ -1,7 +1,6 @@
 click
 loguru
 protobuf
-colorama
 pyzbar
 Pillow
 rich
